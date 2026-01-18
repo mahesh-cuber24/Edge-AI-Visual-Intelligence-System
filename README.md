@@ -1,51 +1,27 @@
-# \# Edge AI Visual Intelligence System
+# Edge AI Visual Intelligence System
 
-# 
+A real-time, edge-oriented visual intelligence system that performs
+pose-based behavior analysis and temporal risk estimation using
+camera input.
 
-# A real-time, edge-oriented visual intelligence system that performs
+This project is designed with edge deployment (NVIDIA Jetson Nano)
+in mind and focuses on explainable, lightweight intelligence rather
+than heavy cloud-based models.
 
-# pose-based behavior analysis and temporal risk estimation using
+---
 
-# camera input.
+## 🚀 Features
 
-# 
+- Real-time camera input (webcam / video file)
+- Human pose estimation using MediaPipe
+- Baseline fall detection
+- Temporal risk aggregation (LOW / MEDIUM / HIGH)
+- Skeleton visualization for interpretability
+- Edge-friendly design (no model training required)
 
-# This project is designed with edge deployment (NVIDIA Jetson Nano)
+---
 
-# in mind and focuses on explainable, lightweight intelligence rather
-
-# than heavy cloud-based models.
-
-# 
-
-# ---
-
-# 
-
-# \## 🚀 Features
-
-# 
-
-# \- Real-time camera input (webcam / video file)
-
-# \- Human pose estimation using MediaPipe
-
-# \- Baseline fall detection
-
-# \- Temporal risk aggregation (LOW / MEDIUM / HIGH)
-
-# \- Skeleton visualization for interpretability
-
-# \- Edge-friendly design (no model training required)
-
-# 
-
-# ---
-
-# 
-
-# \## 🧠 System Architecture (High-Level)
-
+## 🧠 System Architecture (High-Level)
 
 
 # Camera / Video
@@ -65,9 +41,6 @@
 # ↓
 
 # Risk Interpretation
-
-
-
 
 
 

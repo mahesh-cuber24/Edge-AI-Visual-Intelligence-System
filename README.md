@@ -24,25 +24,15 @@ than heavy cloud-based models.
 ## 🧠 System Architecture (High-Level)
 
 
-# Camera / Video
-
-# ↓
-
-# Pose Estimation
-
-# ↓
-
-# Behavior Signals (motion, posture)
-
-# ↓
-
-# Temporal Risk Aggregation
-
-# ↓
-
-# Risk Interpretation
-
-
+Camera / Video
+↓
+Pose Estimation
+↓
+Behavior Signals (motion, posture)
+↓
+Temporal Risk Aggregation
+↓
+Risk Interpretation
 
 
 ---
